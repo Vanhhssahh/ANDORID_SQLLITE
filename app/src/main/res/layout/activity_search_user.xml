@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <EditText
+        android:id="@+id/etBuscarUsuario"
+        android:height="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Usuario" />
+
+
+    <EditText
+        android:id="@+id/etBuscarDocumento"
+        android:layout_width="match_parent"
+        android:height="50dp"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese Documento"
+        android:inputType="number" />
+
+
+    <Button
+        android:id="@+id/btnBuscarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar Usuario" />
+
+
+    <ListView
+        android:id="@+id/listViewResultados"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp" />
+
+
+    <Button
+        android:id="@+id/btnEliminarUsuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Eliminar Usuario"
+        android:background="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:visibility="gone"/> <!--  descubri que esto hace que este oculto hasta que haya un usuario seleccionado -->
+
+</LinearLayout>

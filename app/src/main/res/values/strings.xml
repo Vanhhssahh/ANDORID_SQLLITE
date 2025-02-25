@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ANDORID_SQLLITE</string>
+    <string name="tvTitulo">Ingrese el Documento</string>
+    <string name="etDocumento">Ingrese el Documento</string>
+    <string name="etUsuario">Ingrese el Usuario</string>
+    <string name="etNombres">Ingrese los Nombres</string>
+    <string name="etApellidos">Ingrese los apellidos</string>
+    <string name="etCoontraseña">Ingrese la Contraseña</string>
+    <!-- Botones -->
+    <string name="btnRegistrar">Guardar</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnListar">Listar</string>
+    <string name="btnBorrar">Borrar</string>
+</resources>
